@@ -20,7 +20,10 @@ export default function ShowSessions() {
 		};
 
 		try {
-			let p = await fetch("http://localhost:3005/sessions", options);
+			let p = await fetch(
+				"https://eventmanagement-elnt.onrender.com/sessions",
+				options
+			);
 			console.log(p);
 			let response = await p.json();
 			console.log(response.sessions);

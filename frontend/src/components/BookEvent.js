@@ -29,7 +29,10 @@ export default function BookEvent() {
 		};
 
 		try {
-			let p = await fetch("http://localhost:3005/events", options);
+			let p = await fetch(
+				"https://eventmanagement-elnt.onrender.com/events",
+				options
+			);
 			console.log(p);
 			let response = await p.json();
 			console.log(response);
@@ -63,7 +66,10 @@ export default function BookEvent() {
 		};
 
 		try {
-			let p = await fetch(`http://localhost:3005/weather/${location}`, options);
+			let p = await fetch(
+				`https://eventmanagement-elnt.onrender.com/weather/${location}`,
+				options
+			);
 			console.log(p);
 			let response = await p.json();
 			// console.log(response);

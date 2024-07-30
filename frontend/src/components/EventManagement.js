@@ -16,7 +16,10 @@ export default function EventManagement() {
 		};
 
 		try {
-			let p = await fetch("http://localhost:3005/logout", options);
+			let p = await fetch(
+				"https://eventmanagement-elnt.onrender.com/logout",
+				options
+			);
 			console.log(p);
 			let response = await p.json();
 			console.log(response);

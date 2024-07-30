@@ -20,7 +20,10 @@ export default function ShowEventForDelete() {
 		};
 
 		try {
-			let p = await fetch("http://localhost:3005/events", options);
+			let p = await fetch(
+				"https://eventmanagement-elnt.onrender.com/events",
+				options
+			);
 			console.log(p);
 			let response = await p.json();
 			console.log(response);
@@ -50,7 +53,10 @@ export default function ShowEventForDelete() {
 		};
 
 		try {
-			let p = await fetch(`http://localhost:3005/events/${id}`, options);
+			let p = await fetch(
+				`https://eventmanagement-elnt.onrender.com/events/${id}`,
+				options
+			);
 			console.log(p);
 			let response = await p.json();
 			console.log(response);

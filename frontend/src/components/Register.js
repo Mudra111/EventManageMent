@@ -4,7 +4,7 @@ import "./register.css";
 
 const Register = () => {
 	const [email, setEmail] = useState("");
-	const [name,setName] = useState("");
+	const [name, setName] = useState("");
 	const [password, setPassword] = useState("");
 	// const [error, setError] = useState(null);
 	// const [success, setSuccess] = useState(null);
@@ -15,7 +15,7 @@ const Register = () => {
 		const options = {
 			method: "POST",
 			body: JSON.stringify({
-				name:name,
+				name: name,
 				email: email,
 				password: password,
 			}),
@@ -27,7 +27,10 @@ const Register = () => {
 		console.log(options);
 
 		try {
-			let p = await fetch("http://localhost:3005/register", options);
+			let p = await fetch(
+				"https://eventmanagement-elnt.onrender.com/register",
+				options
+			);
 			console.log(p);
 			let response = await p.json();
 			console.log(response);
@@ -46,7 +49,7 @@ const Register = () => {
 			<div className="registerSubDiv">
 				<h1 className="registerH1">Register</h1>
 				<form onSubmit={handleRegister}>
-				<input
+					<input
 						type="text"
 						placeholder="UserName"
 						value={name}
