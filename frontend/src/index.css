@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
+	width: 100%;
+	background-image: url("./components/Images//Event-1.jpg.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.mainHeading {
+	color: white;
+	font-size: 40px;
+	background-color: rgba(60, 60, 60, 0.586);
+	padding: 20px 0px;
+	margin: 0px;
+	text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.558);
+	box-shadow: 3px 3px 3px rgb(27, 27, 27);
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.mainHeading.scrolled {
+	background-color: black;
+	color: white;
+}

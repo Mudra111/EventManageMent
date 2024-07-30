@@ -1,0 +1,98 @@
+.eventManagementMainDiv {
+	margin: 0px;
+	padding-top: 160px;
+	height: 77vh;
+}
+
+.suvDivEventManagement {
+	display: flex;
+	background-color: white;
+	height: 75%;
+	width: 60%;
+	margin: auto;
+	border-radius: 20px;
+	box-shadow: 3px 3px 60px rgb(0, 0, 0);
+}
+
+.flexDiv1EM,
+.flexDiv2EM {
+	width: 50%;
+}
+
+.flexDiv2EM {
+	padding-top: 10px;
+}
+
+.ImageFlexdiv1EM {
+	/* width: 450px; */
+	height: 70%;
+	border-radius: 15px;
+	margin: 30px 30px 20px 30px;
+}
+
+.logoutBtn {
+	padding: 10px 15px;
+	width: 30%;
+	font-size: 17px;
+	text-align: center;
+	display: block;
+	font-weight: 700;
+	/* border: 2px solid white; */
+	margin: 0px auto;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px solid rgb(98 32 96);
+	color: rgb(98 32 96);
+	cursor: pointer;
+}
+
+.logoutBtn:hover {
+	background-color: rgb(98 32 96);
+	color: white;
+}
+
+.addEventBtn,
+.updateEventBtn,
+.deleteEventBtn,
+.showEventBtn,
+.getSessionBtn {
+	padding: 10px 15px;
+	width: 50%;
+	font-size: 17px;
+	text-align: center;
+	display: block;
+	font-weight: 700;
+	/* border: 2px solid white; */
+	margin: 20px auto;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px solid rgb(98 32 96);
+	color: rgb(98 32 96);
+	cursor: pointer;
+}
+
+.addEventBtn:hover,
+.updateEventBtn:hover,
+.deleteEventBtn:hover,
+.showEventBtn:hover,
+.getSessionBtn:hover {
+	background-color: rgb(98 32 96);
+	color: white;
+}
+
+.addEventBtn a,
+.updateEventBtn a,
+.deleteEventBtn a,
+.showEventBtn a,
+.getSessionBtn a {
+	color: rgb(98 32 96);
+	text-decoration: none;
+}
+
+.addEventBtn:hover a,
+.updateEventBtn:hover a,
+.deleteEventBtn:hover a,
+.showEventBtn:hover a,
+.getSessionBtn:hover a {
+	color: white;
+}

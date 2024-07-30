@@ -1,0 +1,56 @@
+.showEventMainDiv {
+	margin: 0px;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+
+.ShowEventTableDiv {
+	width: 80%;
+	margin: auto;
+}
+
+.ShowEventTable {
+	/* width: 70%; */
+	margin: auto;
+	background-color: rgba(60, 60, 60, 0.586);
+	border-radius: 10px;
+	border-collapse: collapse;
+	border-radius: 10px;
+	box-shadow: 3px 20px 20px rgb(0, 0, 0);
+}
+
+.ShowEventTable thead th {
+	padding: 15px;
+	border-bottom: 1px solid rgb(253, 253, 253);
+}
+
+.ShowEventTable td {
+	padding: 7px 15px;
+}
+
+.ShowEventTableHead {
+	color: white;
+	font-size: 20px;
+}
+
+.ShowEventTableBody {
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+}
+
+.goBackLinkShowEvent {
+	position: absolute;
+	left: 19%;
+	/* color: white; */
+	font-size: 20px;
+	background-color: white;
+	padding: 7px 10px;
+	border-radius: 10px;
+}
+
+.goBackLinkShowEvent a {
+	color: rgb(98 32 96);
+	text-decoration: none;
+	font-weight: 600;
+}

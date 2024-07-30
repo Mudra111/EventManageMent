@@ -1,0 +1,85 @@
+.bookEventMainDiv {
+	margin: 0px;
+	padding-top: 160px;
+	padding-bottom: 100px;
+}
+
+.bookEventSubDiv {
+	width: 35%;
+	margin: 0px auto 0px auto !important;
+	background-color: rgba(60, 60, 60, 0.586);
+	padding: 30px 50px 70px 50px;
+	border-radius: 10px;
+	box-shadow: 3px 20px 20px rgb(0, 0, 0);
+}
+
+.goBackLink {
+	position: absolute;
+	left: 32%;
+	color: white;
+}
+
+.goBackLink a {
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.bookEventH1 {
+	color: white;
+	text-shadow: 3px 3px 20px rgb(255, 255, 255);
+}
+
+.bookEventNameInput,
+.bookEventDescrInput,
+.bookEventbookDateInput,
+.bookEventLocationInput {
+	display: block;
+	margin: 30px auto;
+	width: 55%;
+	padding: 15px;
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+	border-radius: 5px;
+	color: rgb(98 32 96);
+	outline: none;
+}
+
+.bookEventNameInput::placeholder,
+.bookEventDescrInput::placeholder,
+.bookEventbookDateInput::placeholder,
+.bookEventLocationInput::placeholder {
+	color: rgba(98, 32, 96, 0.716);
+}
+
+.bookEventBtn {
+	padding: 10px 15px;
+	width: 30%;
+	font-size: 17px;
+	font-weight: 700;
+	/* border: 2px solid white; */
+	margin: 10px 0px;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+}
+
+.bookEventBtn:hover {
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.837);
+	color: rgb(98 32 96);
+}
+
+.getWeatherDiv p:first-child {
+	cursor: pointer;
+}
+
+.getWeatherDiv p {
+	display: inline-block;
+	color: white;
+	font-size: 17px;
+	font-weight: 500;
+	margin: 10px 10px;
+}

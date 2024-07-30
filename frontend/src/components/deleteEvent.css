@@ -1,0 +1,75 @@
+.deleteEventMainDiv {
+	margin: 0px;
+	padding-top: 190px;
+	padding-bottom: 60px;
+}
+
+.deleteETableDiv {
+	width: 80%;
+	margin: auto;
+}
+
+.deleteETable {
+	/* width: 70%; */
+	margin: auto;
+	background-color: rgba(60, 60, 60, 0.586);
+	border-radius: 10px;
+	border-collapse: collapse;
+	border-radius: 10px;
+	box-shadow: 3px 20px 20px rgb(0, 0, 0);
+}
+
+.deleteETable thead th {
+	padding: 15px;
+	border-bottom: 1px solid rgb(253, 253, 253);
+}
+
+.deleteETable td {
+	padding: 7px 15px;
+}
+
+.deleteETableHead {
+	color: white;
+	font-size: 20px;
+}
+
+.deleteETableBody {
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+}
+
+.DeleteEBtn {
+	padding: 10px 15px;
+	/* width: 30%; */
+	font-size: 17px;
+	font-weight: 700;
+	/* border: 2px solid white; */
+	margin: 10px 0px;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+}
+
+.DeleteEBtn:hover {
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.837);
+	color: rgb(98 32 96);
+}
+
+.goBackLinkDLT {
+	position: absolute;
+	left: 16%;
+	/* color: white; */
+	font-size: 20px;
+	background-color: white;
+	padding: 7px 10px;
+	border-radius: 10px;
+}
+
+.goBackLinkDLT a {
+	color: rgb(98 32 96);
+	text-decoration: none;
+	font-weight: 600;
+}
